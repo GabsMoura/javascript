@@ -1,5 +1,5 @@
 const nome = 'Gabriel';
-let altura = 176;
+let altura = 172;
 let peso = 85;
 
 altura = parseFloat(altura);
