@@ -1,8 +1,9 @@
+//
 class Pessoa {
     constructor(nome, idade) {
         this.nome = nome;
         this.idade = idade;
-        console.log(`Nome: ${this.nome}`, `Idade: ${this.idade}`);
+        console.log(`Nome: ${this.nome}`, `|`, `Idade: ${this.idade}`);
     }
     verificaIdade() {
         if (this.idade >= 0 && this.idade < 15) {
@@ -16,9 +17,6 @@ class Pessoa {
         }
         else if (this.idade >= 60) {
             console.log('É Idoso');
-        }
-        else {
-            return false;
         }
     }
     static verificaNome(nome) {
